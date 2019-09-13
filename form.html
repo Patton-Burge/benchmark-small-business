@@ -12,7 +12,7 @@
     />
     <link rel="icon" href="/images/pepper.ico" />
     <style>
-      body {
+      * {
         font-family: "Salsa", cursive;
       }
       .div_class_that_acts_like_an_li {
@@ -64,28 +64,55 @@
       </nav>
     </header>
     <main>
-        <section class="container_of_form">
-            <form action="" class="form_to_be"> 
-                    <p>Select a maintenance drone:</p>
-
-                    <div>
-                      <input type="radio" id="huey" name="drone" value="huey"
-                             checked>
-                      <label for="huey">Huey</label>
-                    </div>
-                    
-                    <div>
-                      <input type="radio" id="dewey" name="drone" value="dewey">
-                      <label for="dewey">Dewey</label>
-                    </div>
-                    
-                    <div>
-                      <input type="radio" id="louie" name="drone" value="louie">
-                      <label for="louie">Louie</label>
-                    </div>
-                    
-            </form>
-        </section>
+      <form action="" class="container_of_form">
+              <div class="form_to_be">
+                    <p>Please Select a Base:</p>
+                      <input type="radio" id="Peach" name="base" value="Peach">
+                      <label for="Peach">Peach</label>
+                      <input type="radio" id="Green Chile" name="base" value="Green Chile">
+                      <label for="Green Chile">Green Chile</label>
+                      <input type="radio" id="louie" name="base" value="louie">
+                      <label for="louie">Tomato</label>
+              </div>
+              <div class="form_to_be">
+                  <p>Please Select a few ingredients:</p>
+                  <input type="checkbox" id="Peach" name="ingredients" value="Peach">
+                  <label for="Peach">Jalepenos`</label>
+                  <input type="checkbox" id="Green Chile" name="ingredients" value="Green Chile">
+                  <label for="Green Chile">Green Chile</label>
+                  <input type="checkbox" id="louie" name="ingredients" value="louie">
+                  <label for="louie">Tomato</label>
+                  <input type="checkbox" id="Peach" name="ingredients" value="Peach">
+                  <label for="Peach">Onions</label>
+                  <input type="checkbox" id="Green Chile" name="ingredients" value="Green Chile">
+                  <label for="Green Chile">Red Chile</label>
+                  <input type="checkbox" id="louie" name="ingredients" value="louie">
+                  <label for="louie">Cilantro</label>
+                  <input type="checkbox" id="Peach" name="ingredients" value="Peach">
+                  <label for="Peach">Lime</label>
+                  <input type="checkbox" id="Green Chile" name="ingredients" value="Green Chile">
+                  <label for="Green Chile">Lemon</label>
+                  <input type="checkbox" id="louie" name="ingredients" value="louie">
+                  <label for="louie">Honey</label>
+                  <input type="checkbox" id="Peach" name="ingredients" value="Peach">
+                  <label for="Peach">Garlic</label>
+                  <input type="checkbox" id="Green Chile" name="ingredients" value="Green Chile">
+                  <label for="Green Chile">Salt</label>
+              </div> 
+              <div class="form_to_be">
+                  <p>Please Select a Container:</p>
+                    <input type="radio" id="Peach" name="container" value="Peach">
+                    <label for="Peach">Jar</label>
+                    <input type="radio" id="Green Chile" name="container" value="Green Chile">
+                    <label for="Green Chile">Jug</label>
+                    <input type="radio" id="louie" name="container" value="louie">
+                    <label for="louie">Oil Drum </label>
+              </div>
+              <div class="form_to_be">
+            <input  class="btn" type="reset" style="align-items: center; justify-content: center; margin-top: 18em; "value="Submit The Form">
+          </div>
+      </form>
+        
     </main>
       <footer>Design By Patton Burge</footer>
   </body>
